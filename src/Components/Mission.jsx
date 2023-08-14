@@ -8,7 +8,7 @@ export default function Mission() {
             <p>One stop shop of global trade for African merchants <br />(importers and exporters)</p>
         </div>
         <div className="mission-image">
-            <img src="../images/mission.png" alt="" />
+            <img src="/mission.png" alt="" />
         </div>
 
 

@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <section id='home'>
       <header>
-        <div className="logo"><img src="../images/logo.png" alt="" /></div>
+        <div className="logo"><img src="/logo.png" alt="" /></div>
         <nav ref={navRef}>
           <ul>
             <li className='dropdown'>Solutions <FontAwesomeIcon icon={faAngleDown} className="nav-icon"/></li>

@@ -7,7 +7,7 @@ export default function Footer() {
     <footer id='footer'>
         <div className="footer-content">
             <div className="column1">
-                <img src="../images/logo1.png" alt="" />
+                <img src="/logo1.png" alt="" />
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
                     elit. Phasellus vitae libero magna nisl scelerisque
                     nam fermentum. Sed odio nisl nisl tristique augue ut 
@@ -40,7 +40,7 @@ export default function Footer() {
                 </div>
             </div>
         </div>
-        <small>Copyright, 2023</small>
+        <small>Copyright, {new Date().getFullYear()}</small>
         
 
     </footer>

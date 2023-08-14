@@ -8,7 +8,7 @@ export default function Features() {
         <div className="feature-cards">
             {data.map((item) => 
                 <div className="card">
-                    <img src="../images/icon.png" alt="" />
+                    <img src="/icon.png" alt="" />
                     <h5>{item.title}</h5>
                     <p>{item.text}</p>
                     <h6>{item.subText} {item.icon}</h6>

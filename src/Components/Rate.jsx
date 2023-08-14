@@ -9,7 +9,7 @@ export default function Rate() {
             <div className='first-input'>
                 <label htmlFor="pick">Pick up</label><br />
                 <input type="text" name="pick" id="pick" placeholder='Nigeria'/>
-                <img src="../images/Nigeria (NG).png" alt="" />
+                <img src="/NigeriaFlag.png" alt="" />
                 <FontAwesomeIcon icon={faChevronDown} className="rate-icon"/>
             </div>
             <div className='second-input'>
@@ -23,12 +23,12 @@ export default function Rate() {
             </div>
             <div className="third-input">
                 <input type="text" name="" id="text" placeholder='City'/>
-                <img src="../images/vector.png" alt="" />
+                <img src="/Vector.png" alt="" />
                 <FontAwesomeIcon icon={faChevronDown} className="rate-icons"/>
             </div>
             <div className="third-input">
                 <input type="text" name="" id="text" placeholder='City'/>
-                <img src="../images/vector.png" alt="" />
+                <img src="/Vector.png" alt="" />
                 <FontAwesomeIcon icon={faChevronDown} className="rate-icons"/>
             </div>
         </div>
