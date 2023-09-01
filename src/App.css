@@ -539,8 +539,8 @@ input[type="text"]{
 }
 span button{
   position: absolute;
-  top: 7px;
-  right: 5px;
+  top: .5rem;
+  right: 1rem;
   border: none;
   background: #234E4A;
   color: #FFF;
@@ -590,16 +590,13 @@ small{
     font-size: .6rem;
   }
   .input input{
-    width: 85vw;
+    width: 20rem;
     margin-left: -.5rem;
   }
-  span button{
-    width: 40vw;
-    top: 7px;
-    left: 150px;
-    text-align: center;
-    padding: .4rem 1rem;
+  .input span button{
+    left: 14rem;
   }
+  
   
 }
 
@@ -613,7 +610,10 @@ small{
     flex-direction: column;
   }
   span button{
-    right: 50%;
+    width: 5rem;
+    top: .6rem;
+    left: 19rem;
+    font-size: .6rem;
     text-align: center;
     padding: .4rem 1rem;
   }
